@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-mdsvex-pages",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Markdown-based documentation/blog generator built with MDsveX.",
   "main": "index.mjs",
   "scripts": {
@@ -26,5 +26,4 @@
   "dependencies": {
     "mdsvex": "^0.8.8"
   },
-  "type": "module"
 }
