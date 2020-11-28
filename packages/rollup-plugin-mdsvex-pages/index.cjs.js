@@ -13,7 +13,7 @@ function mdsvexPages(options) {
         appName: 'App.svelte',
         docPath: 'docs',
         mdxvexOptions: {
-            extensions: ['.svelte', '.md']
+            extensions: ['.md']
         }
     }
 
@@ -80,7 +80,7 @@ function mdsvexPages(options) {
                     map: null
                 }
             }
-            if (fileName.includes('md')) {
+            if (fileName.includes(actualOpts.mdxvexOptions.extensions)) {
                 const res = await mdsvex.compile(code, actualOpts.mdxvexOptions);
                 return {
                     code: res.code,
