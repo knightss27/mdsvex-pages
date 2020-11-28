@@ -11,6 +11,7 @@
     "url": "https://github.com/knightss27/mdsvex-pages/tree/master/packages/rollup-plugin-mdsvex-pages"
   },
   "keywords": [
+    "rollup-plugin",
     "mdsvex",
     "svelte",
     "markdown",
