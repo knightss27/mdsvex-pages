@@ -1,8 +1,8 @@
 {
   "name": "rollup-plugin-mdsvex-pages",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Markdown-based documentation/blog generator built with MDsveX.",
-  "main": "index.mjs",
+  "main": "index.cjs.js",
   "scripts": {
     "test": "mdsvex-pages-test"
   },
@@ -25,5 +25,5 @@
   "homepage": "https://github.com/knightss27/mdsvex-pages/tree/master/packages/rollup-plugin-mdsvex-pages#readme",
   "dependencies": {
     "mdsvex": "^0.8.8"
-  },
+  }
 }

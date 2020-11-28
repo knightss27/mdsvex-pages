@@ -1,7 +1,9 @@
-const fs = require('fs');
-import { compile } from 'mdsvex';
+'use strict';
 
-export default function mdsvexPages(options) {
+const fs = require('fs');
+const mdsvex = require('mdsvex');
+
+function mdsvexPages(options) {
     
     // Make sure options is an empty object if left untouched.
     if ( options === void 0 ) options = {};
@@ -79,7 +81,7 @@ export default function mdsvexPages(options) {
                 }
             }
             if (fileName.includes('md')) {
-                const res = await compile(code, actualOpts.mdxvexOptions);
+                const res = await mdsvex.compile(code, actualOpts.mdxvexOptions);
                 return {
                     code: res.code,
                     map: null
@@ -90,6 +92,6 @@ export default function mdsvexPages(options) {
         },
         
     }
-
-
 }
+
+module.exports = mdsvexPages;
