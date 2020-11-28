@@ -25,5 +25,5 @@
   "homepage": "https://github.com/knightss27/mdsvex-pages/tree/master/packages/rollup-plugin-mdsvex-pages#readme",
   "dependencies": {
     "mdsvex": "^0.8.8"
-  },
+  }
 }
