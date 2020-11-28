@@ -3,6 +3,8 @@
 Markdown-based documentation/blog generator built with [MDsveX](https://mdsvex.com/).
 <br>
 Currently supports [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) and [Sapper](https://sapper.svelte.dev/) (coming soon).
+<br>
+This is a template repo, if you want to try implementing the rollup plugin yourself, see [rollup-plugin-mdsvex-pages](https://github.com/knightss27/rollup-plugin-mdsvex-pages).
 
 ---
 # How it works
