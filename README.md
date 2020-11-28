@@ -1,6 +1,6 @@
 # mdsvex-pages
 
-Markdown-based documentation/blog generator built with MDsveX.
+Markdown-based documentation/blog generator built with [MDsveX](https://mdsvex.com/).
 <br>
 Currently supports [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) and [Sapper](https://sapper.svelte.dev/) (coming soon).
 
@@ -19,6 +19,8 @@ Assuming your svelte project tree looks similar to:
 ```
 
 mdsvex-pages will automatically generate [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) routes and convert the markdown files into parseable svelte files to be bundled. (using MDsveX's [compile](https://mdsvex.com/docs#use-it) function)
+
+Because mdsvex-pages uses MDsveX, you can write valid Svelte code in the .md files. Additionally, I currently use .md files as the basis as that was what I wanted to parse for my own original usage, but options allow you to change this extension to `.svx` (as used by MDsveX in their docs) or `.anything`, so you can use whatever extension you prefer. 
 
 ---
 # Setup
@@ -40,6 +42,9 @@ plugins: [
   mdsvexPages({
     appName: 'App.svelte' // Path of the central svelte file, should include your Router component. Assumes you are in /src.
     docPath: 'docs' // Path of the .md pages folder. Assumes you are in /src.
+    mdsvexOptions: { //You can configure any of the mdsvexOptions, and they will be passed to mdsvex.
+      extensions: ['.md'] 
+    }
   }),
 
   svelte({
