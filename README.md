@@ -48,3 +48,21 @@ plugins: [
   })
 ]};
 ```
+
+In your App.svelte (or equivalent). Again, this is already set up in this repo.
+
+```svelte
+<script>
+  import Router from 'svelte-spa-router'
+  const routes = new Map();
+</script>
+
+<main>
+  <h1>Hello world!</h1>
+  <Router {routes} />
+</main>
+```
+> ### NOTE: 
+> You must be using the Map() version of svelte-spa-router, and it needs to be named `routes`.
+
+Once this is set up, feel free to add as many .md pages to their folder as you'd like.
