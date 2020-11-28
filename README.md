@@ -71,5 +71,6 @@ In your App.svelte (or equivalent). Again, this is already set up in this repo.
 ```
 > ### NOTE: 
 > You must be using the Map() version of svelte-spa-router, and it needs to be named `routes`.
+> This allows you to make your own routes using the `routes.set(route, component)` syntax, and for mdsvex-pages to build on top.
 
 Once this is set up, feel free to add as many .md pages to their folder as you'd like.
