@@ -10,7 +10,7 @@
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "mdsvex": "^0.8.9",
-    "rollup": "^2.34.0",
+    "rollup": "^2.34.1",
     "rollup-plugin-css-only": "^3.0.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-mdsvex-pages": "^1.1.4",
