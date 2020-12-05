@@ -38,7 +38,10 @@ export default {
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
-		mdsvexPages(),
+		mdsvexPages({
+			hasSidebar: false,
+			hasNavbar: false,
+		}),
 
 		svelte({
 			// Required for mdsvex-pages to work.

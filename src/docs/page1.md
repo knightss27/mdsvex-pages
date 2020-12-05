@@ -1,4 +1,9 @@
-# THIS IS A TEST!!
+---
+id: main
+title: Docs Main Page
+---
+
+# {title}
 
 I hope this markdown works!
 
@@ -24,5 +29,5 @@ if (test == null) {
     div pre {
         margin: 0px;
     }
-
+    
 </style>
