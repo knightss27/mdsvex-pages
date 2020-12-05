@@ -3,6 +3,8 @@
 Markdown-based documentation/blog generator built with [MDsveX](https://mdsvex.com/).
 <br>
 Currently supports [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) and [Sapper](https://sapper.svelte.dev/) (coming soon).
+<br>
+This is a template repo, if you want to try implementing the rollup plugin yourself, see [rollup-plugin-mdsvex-pages](https://github.com/knightss27/rollup-plugin-mdsvex-pages).
 
 ---
 # How it works
@@ -69,5 +71,6 @@ In your App.svelte (or equivalent). Again, this is already set up in this repo.
 ```
 > ### NOTE: 
 > You must be using the Map() version of svelte-spa-router, and it needs to be named `routes`.
+> This allows you to make your own routes using the `routes.set(route, component)` syntax, and for mdsvex-pages to build on top.
 
 Once this is set up, feel free to add as many .md pages to their folder as you'd like.
