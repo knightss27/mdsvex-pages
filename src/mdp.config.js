@@ -4,7 +4,7 @@ module.exports = {
             {"route": "main", "label": "Page 1"},
             {"route": "gfm", "label": "GFM"},
         ],
-        "Getting Started 2": [
+        "Another Category": [
             {"route": "main", "label": "Page 1"},
             {"route": "gfm", "label": "GFM"},
         ]
