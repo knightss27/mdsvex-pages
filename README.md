@@ -15,11 +15,11 @@ Assuming your svelte project tree looks similar to:
 ├─── /src
 │   ├─── main.js
 │   ├─── App.svelte
-|   ├─── mdp.config.js
+│   ├─── mdp.config.js
 │   ├─── /docs
 │   │   └─── page1.md
 │   │   └─── page2.md
-|   
+│   
 ├─── rollup.config.js
 ```
 
