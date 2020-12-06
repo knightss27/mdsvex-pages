@@ -18,6 +18,8 @@ Assuming your svelte project tree looks similar to:
 │   ├─── /docs
 │   │   └─── page1.md
 │   │   └─── page2.md
+|   ├─── mdp.config.js (optional)
+├─── rollup.config.js
 ```
 
 mdsvex-pages will automatically generate [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) routes and convert the markdown files into parseable svelte files to be bundled. (using MDsveX's [compile](https://mdsvex.com/docs#use-it) function)
