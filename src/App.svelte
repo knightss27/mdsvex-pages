@@ -9,6 +9,6 @@
 
 <style>
 	main {
-		padding-bottom: 40000px;
+		padding-bottom: 10000px;
 	}
 </style>
