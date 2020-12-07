@@ -6,7 +6,7 @@ module.exports = {
         ],
         "Another Category": [
             {"route": "main", "label": "Page 1"},
-            {"route": "gfm", "label": "GFM"},
+            {route: "gfm", label: "GFM"},
         ]
     },
     navbarLinks: [
