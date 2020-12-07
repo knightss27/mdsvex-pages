@@ -15,9 +15,12 @@ Assuming your svelte project tree looks similar to:
 ├─── /src
 │   ├─── main.js
 │   ├─── App.svelte
+│   ├─── mdp.config.js
 │   ├─── /docs
 │   │   └─── page1.md
 │   │   └─── page2.md
+│   
+├─── rollup.config.js
 ```
 
 mdsvex-pages will automatically generate [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router) routes and convert the markdown files into parseable svelte files to be bundled. (using MDsveX's [compile](https://mdsvex.com/docs#use-it) function)
@@ -74,3 +77,24 @@ In your App.svelte (or equivalent). Again, this is already set up in this repo.
 > This allows you to make your own routes using the `routes.set(route, component)` syntax, and for mdsvex-pages to build on top.
 
 Once this is set up, feel free to add as many .md pages to their folder as you'd like.
+
+Additionally, you can turn on the (very much experimental) sidebar and/or navbar to your page. Currently, this appears on every route, but soon there will be an option to have these only show up on the routes of your choice. Additionally, you can turn off either one of the components and replace them with your own if you'd like. This is all set through a new mdp.config.js file, which can be configured in your src directory. The file can be set up as so:
+
+```js
+//mdp.config.js
+
+module.exports = {
+  docs: { // currently you must call the sidebar 'docs' (will be changed to be the name of the route you want the sidebar to appear on)
+    "Category": [ // A category, you can have as many as you'd like, but currently you can't nest them.
+      "my-page-id", // if your route is the name you want to show, just list it like this.
+      {route: "My Page", label: "my-page-id"} // if you want a diff. sidebar label, use this format.
+    ]
+  },
+  navbarLinks: [ // Works similarly to above, but with no categories. These are links on the navbar.
+    "my-page-id",
+    {route: "My Page", label: "my-page-id"}
+  ],
+  navbarBrand: "My Brand" // Brand text, more customization to come.
+}
+```
+
