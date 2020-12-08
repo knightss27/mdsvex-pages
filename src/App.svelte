@@ -1,14 +1,15 @@
 <script>
 	import Router from 'svelte-spa-router'
 	const routes = new Map();
-	import MDPNavbar from 'rollup-plugin-mdsvex-pages/src/MDPNavbar.svelte'
+	import MDPWrapper from 'rollup-plugin-mdsvex-pages/src/MDPWrapper.svelte'
 </script>
 
-<!-- <MDPNavbar {routes} /> -->
+<MDPWrapper>
+	<main>
+		<Router {routes} />
+	</main>
+</MDPWrapper>
 
-<main>
-	<Router {routes} />
-</main>
 
 <style>
 	main {
