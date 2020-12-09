@@ -3,7 +3,8 @@
         "docs": {
             "Getting Started": [
                 {"route": "main", "label": "Page 1"},
-                {"route": "gfm", "label": "GFM"}
+                {"route": "gfm", "label": "GFM"},
+                {"route": "readme", "label": "README"}
             ],
             "Another Category": [
                 {"route": "main", "label": "Page 1"},
@@ -15,7 +16,8 @@
         "docs": {
             "navbarLinks": [
                 {"route": "main", "label": "Main"},
-                {"route": "gfm", "label": "Github Markdown"}
+                {"route": "gfm", "label": "Github Markdown"},
+                {"route": "readme", "label": "README"}
             ],
             "title": "MD-Pages",
             "logo": {

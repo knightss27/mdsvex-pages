@@ -12,7 +12,7 @@
 
 
 <style>
-	main {
+	/* main {
 		padding-bottom: 10000px;
-	}
+	} */
 </style>
