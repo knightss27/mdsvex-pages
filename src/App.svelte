@@ -4,7 +4,7 @@
 	import MDPWrapper from 'rollup-plugin-mdsvex-pages/src/MDPWrapper.svelte'
 </script>
 
-<MDPWrapper>
+<MDPWrapper styles={{}}>
 	<main>
 		<Router {routes} />
 	</main>
