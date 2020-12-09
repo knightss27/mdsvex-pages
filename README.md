@@ -80,26 +80,26 @@ Once this is set up, feel free to add as many .md pages to their folder as you'd
 
 Additionally, you can turn on the (very much experimental) sidebar and/or navbar to your page. Currently, this appears on every route, but soon there will be an option to have these only show up on the routes of your choice. Additionally, you can turn off either one of the components and replace them with your own if you'd like. This is all set through a new mdp.config.js file, which can be configured in your src directory. The file can be set up as so:
 
-```json
+```js
 //mdp.config.json
 
 {
-  "sidebar": {
-    "docs": {
-      "Category Name": [
-        {"route": "page-id", "label": "My Page"}
+  "sidebar": { // All options for the sidebar are stored in this object.
+    "docs": { // This represents the route the sidebar should show up on.
+      "Category Name": [ // Category name, text next to the dropdown.
+        {"route": "page-id", "label": "My Page"} // A sidebar item, route for page id relative to the sidebar route.
       ]
     }
   },
-  "navbar": {
-    "docs": {
-      "links": [
+  "navbar": { // All options for the navbar are stored in this object.
+    "docs": { // This represents the route the navbar should show up on.
+      "links": [ // Links to show up on the navbar.
         {"route": "page-id", "label": "My Page"}
       ],
-      "title": "My Title",
-      "logo": {
+      "title": "My Title", // Title for your navbar brand.
+      "logo": { // Logo for your navbar brand.
         "alt": "Site Logo",
-        "src": "img.png"
+        "src": "img.png" // src is passed to the img src attribute.
       }
     }
   }
