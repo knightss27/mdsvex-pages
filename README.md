@@ -78,7 +78,7 @@ In your App.svelte (or equivalent). Again, this is already set up in this repo.
 
 Once this is set up, feel free to add as many .md pages to their folder as you'd like.
 
-Additionally, you can turn on the (very much experimental) sidebar and/or navbar to your page. Currently, this appears on every route, but soon there will be an option to have these only show up on the routes of your choice. Additionally, you can turn off either one of the components and replace them with your own if you'd like. This is all set through a new mdp.config.js file, which can be configured in your src directory. The file can be set up as so:
+Additionally, you can turn on the (very much experimental) sidebar and/or navbar to your page. Currently, this appears on every route, but soon there will be an option to have these only show up on the routes of your choice. Additionally, you can turn off either one of the components and replace them with your own if you'd like. This is all set through a new `mdp.config.json file`, which can be configured in your src directory. The file can be set up as so:
 
 ```js
 //mdp.config.json
