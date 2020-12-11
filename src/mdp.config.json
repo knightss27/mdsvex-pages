@@ -2,6 +2,7 @@
     "sidebar": {
         "docs": {
             "Getting Started": [
+                {"route": "", "label": "Home"},
                 {"route": "main", "label": "Page 1"},
                 {"route": "gfm", "label": "GFM"},
                 {"route": "readme", "label": "README"}
@@ -9,7 +10,8 @@
             "Another Category": [
                 {"route": "main", "label": "Page 1"},
                 {"route": "gfm", "label": "GFM"}
-            ]
+            ],
+            "default-open": ["Getting Started"]
         }
     },
     "navbar": {
