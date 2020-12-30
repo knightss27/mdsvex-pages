@@ -1,6 +1,6 @@
 <script>
 	import Router from 'svelte-spa-router'
-	const routes = new Map();
+	const routes = {};
 	import MDPWrapper from 'rollup-plugin-mdsvex-pages/src/components/MDPWrapper.svelte'
 </script>
 

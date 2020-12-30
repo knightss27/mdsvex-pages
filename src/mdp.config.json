@@ -12,11 +12,24 @@
                 {"route": "gfm", "label": "GFM"}
             ],
             "default-open": ["Getting Started"]
+        },
+        "blog": {
+            "Getting Started": [
+                {"route": "", "label": "Blog"},
+                {"route": "article", "label": "Page 1"},
+                {"route": "gfm", "label": "GFM"},
+                {"route": "readme", "label": "README"}
+            ],
+            "Another Category": [
+                {"route": "main", "label": "Page 1"},
+                {"route": "gfm", "label": "GFM"}
+            ],
+            "default-open": ["Getting Started"]
         }
     },
     "navbar": {
         "docs": {
-            "navbarLinks": [
+            "links": [
                 {"route": "main", "label": "Main"},
                 {"route": "gfm", "label": "Github Markdown"},
                 {"route": "readme", "label": "README"}
