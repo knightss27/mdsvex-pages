@@ -38,6 +38,6 @@ cd mdsvex-pages
 npm install
 ```  
 
-Look at the README for [rollup-plugin-mdsvex-pages](https://github.com/knightss27/rollup-plugin-mdsvex-pages) for setting options and routes.
+Look at [Setup](https://github.com/knightss27/rollup-plugin-mdsvex-pages#setup) for setting options and routes.
 (Currently keeping this information there so I don't have to worry about keeping two very similar pages up to date)
 
