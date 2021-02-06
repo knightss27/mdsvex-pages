@@ -7,11 +7,11 @@
     "start": "sirv public"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.0.1",
     "gray-matter": "^4.0.2",
     "mdsvex": "^0.8.9",
-    "rollup": "^2.36.1",
+    "rollup": "^2.38.5",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-mdsvex-pages": "^1.2.12",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "remark-gfm": "^1.0.0",
-    "sirv-cli": "^1.0.10",
+    "sirv-cli": "^1.0.11",
     "svelte-spa-router": "^3.1.0"
   }
 }
