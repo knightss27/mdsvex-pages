@@ -1,5 +1,5 @@
 ---
-id: main
+id: .
 title: Docs Main Page
 ---
 
